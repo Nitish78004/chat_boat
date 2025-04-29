@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My AI Assistent</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nitesh's Chatbot</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome User!</h1>
-        <h2>Talk to AI</h2>
+
+  <div class="chat-container">
+    <div class="chat-header">Nitesh's ChatBot</div>
+
+    <div class="chat-messages">
+      <!-- Messages will be dynamically added here -->
     </div>
-    <div class="chat-container"> </div> 
-    <div class="prompt-area">
-        <input type="text" id="prompt" placeholder=" Ask something...">
-        <button id="btn"><img src="send.svg"alt="btn"></button>
+
+    <div class="chat-input">
+      <input id="prompt" type="text" placeholder="Type a message..." />
+      <button id="btn">Send</button>
     </div>
-    <script src="script.js"></script>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>

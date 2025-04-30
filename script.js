@@ -43,9 +43,7 @@ async function getApiResponse(aiChatBox) {
 }
 
 function showLoading() {
-    let html = `
-        
-        
+    let html = ` 
         <p class="text2"></p>
         <img class="loading" src="load-32_256.gif" alt="loading" height="30">`;
 
